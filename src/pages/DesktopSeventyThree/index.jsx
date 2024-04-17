@@ -20,13 +20,15 @@ const data1 = [
 export default function DesktopSeventyThreePage() {
   return (
     <>
-      <Helmet>
-        <title>Dr. Bruce Willis Gynecologist Profile | Comprehensive Women's Health Care</title>
-        <meta
-          name="description"
-          content="Meet Dr. Bruce Willis, a dedicated Gynecologist with over 7 years of experience. Specializing in women's health, skin care, and more. Book an appointment now."
-        />
-      </Helmet>
+      <title>
+        Dr. Bruce Willis Gynecologist Profile | Comprehensive Women's Health
+        Care
+      </title>
+      <meta
+        name="description"
+        content="Meet Dr. Bruce Willis, a dedicated Gynecologist with over 7 years of experience. Specializing in women's health, skin care, and more. Book an appointment now."
+      />
+
       <div className="flex w-full flex-col items-center gap-[61px] bg-white-A700_01 pb-[85px] md:pb-5 sm:gap-[30px]">
         {/* navigation header section */}
         <Header className="flex items-end justify-center self-stretch bg-orange-50 py-[15px]" />
@@ -49,10 +51,18 @@ export default function DesktopSeventyThreePage() {
                     <div className="flex w-[31%] flex-col gap-1.5">
                       <div className="ml-1 flex items-start md:ml-0">
                         <div className="flex flex-col items-start gap-0.5">
-                          <Text size="xl" as="p" className="!font-poppins !text-gray-900_03">
+                          <Text
+                            size="xl"
+                            as="p"
+                            className="!font-poppins !text-gray-900_03"
+                          >
                             Dr. Bruce Willis
                           </Text>
-                          <Text size="s" as="p" className="!font-poppins !text-green-800_01">
+                          <Text
+                            size="s"
+                            as="p"
+                            className="!font-poppins !text-green-800_01"
+                          >
                             Gynecologist
                           </Text>
                         </div>
@@ -63,36 +73,80 @@ export default function DesktopSeventyThreePage() {
                         />
                       </div>
                       <div className="flex flex-wrap items-center">
-                        <Heading size="s" as="h1" className="h-[21px] self-start tracking-[-0.15px] !text-gray-700_05">
+                        <Heading
+                          size="s"
+                          as="h1"
+                          className="h-[21px] self-start tracking-[-0.15px] !text-gray-700_05"
+                        >
                           4.2
                         </Heading>
-                        <Img src="images/img_signal.svg" alt="signal_one" className="ml-0.5 h-[22px]" />
-                        <Img src="images/img_signal.svg" alt="signal_three" className="relative ml-[-1px] h-[22px]" />
-                        <Img src="images/img_signal.svg" alt="signal_five" className="h-[22px]" />
-                        <Img src="images/img_signal.svg" alt="signal_seven" className="h-[22px]" />
+                        <Img
+                          src="images/img_signal.svg"
+                          alt="signal_one"
+                          className="ml-0.5 h-[22px]"
+                        />
+                        <Img
+                          src="images/img_signal.svg"
+                          alt="signal_three"
+                          className="relative ml-[-1px] h-[22px]"
+                        />
+                        <Img
+                          src="images/img_signal.svg"
+                          alt="signal_five"
+                          className="h-[22px]"
+                        />
+                        <Img
+                          src="images/img_signal.svg"
+                          alt="signal_seven"
+                          className="h-[22px]"
+                        />
                       </div>
                     </div>
                     <div className="flex flex-col items-center">
-                      <Text size="xs" as="p" className="text-center !font-poppins !text-green-800_01">
+                      <Text
+                        size="xs"
+                        as="p"
+                        className="text-center !font-poppins !text-green-800_01"
+                      >
                         Followers
                       </Text>
-                      <Heading size="xl" as="h2" className="text-center !font-poppins !text-gray-900_03">
+                      <Heading
+                        size="xl"
+                        as="h2"
+                        className="text-center !font-poppins !text-gray-900_03"
+                      >
                         850
                       </Heading>
                     </div>
                     <div className="flex flex-col items-center">
-                      <Text size="xs" as="p" className="text-center !font-poppins !text-green-800_01">
+                      <Text
+                        size="xs"
+                        as="p"
+                        className="text-center !font-poppins !text-green-800_01"
+                      >
                         Following
                       </Text>
-                      <Heading size="xl" as="h3" className="text-center !font-poppins !text-gray-900_03">
+                      <Heading
+                        size="xl"
+                        as="h3"
+                        className="text-center !font-poppins !text-gray-900_03"
+                      >
                         18K
                       </Heading>
                     </div>
                     <div className="flex flex-col">
-                      <Text size="xs" as="p" className="text-center !font-poppins !text-green-800_01">
+                      <Text
+                        size="xs"
+                        as="p"
+                        className="text-center !font-poppins !text-green-800_01"
+                      >
                         Posts
                       </Text>
-                      <Heading size="xl" as="h4" className="text-center !font-poppins !text-gray-900_03">
+                      <Heading
+                        size="xl"
+                        as="h4"
+                        className="text-center !font-poppins !text-gray-900_03"
+                      >
                         250
                       </Heading>
                     </div>
@@ -114,11 +168,21 @@ export default function DesktopSeventyThreePage() {
             <div className="flex flex-1 flex-col gap-[30px] md:self-stretch">
               <div className="flex flex-col items-start gap-[33px] rounded-[18px] border border-solid border-gray-300_06 bg-white-A700_01">
                 <div className="flex items-center justify-between gap-5 self-stretch rounded-tl-[15px] rounded-tr-[18px] bg-gradient1 p-[13px]">
-                  <Heading size="2xl" as="h2" className="ml-[22px] self-start !text-blue_gray-900 md:ml-0">
+                  <Heading
+                    size="2xl"
+                    as="h2"
+                    className="ml-[22px] self-start !text-blue_gray-900 md:ml-0"
+                  >
                     A Little About me
                   </Heading>
                   <Button
-                    rightIcon={<Img src="images/img_plus.svg" alt="plus" className="h-[14px] w-[14px]" />}
+                    rightIcon={
+                      <Img
+                        src="images/img_plus.svg"
+                        alt="plus"
+                        className="h-[14px] w-[14px]"
+                      />
+                    }
                     className="mr-[22px] flex h-[36px] min-w-[113px] items-center justify-center gap-[7px] rounded-[10px] border border-solid border-green-800_01 bg-white-A700_01 px-5 text-center font-poppins text-base font-medium text-gray-700_03 md:mr-0"
                   >
                     Follow
@@ -129,20 +193,29 @@ export default function DesktopSeventyThreePage() {
                     as="p"
                     className="w-[97%] !font-poppins !font-medium leading-[27px] !text-blue_gray-800_7f md:w-full"
                   >
-                    Hello I am Dr. Bruce Willis a Gynaecologist in Sanjivni Hospital Surat. love to work with all my
-                    hospital staff and seniour doctors. Completed my graduation in Gynaecologist Medicine from the{" "}
+                    Hello I am Dr. Bruce Willis a Gynaecologist in Sanjivni
+                    Hospital Surat. love to work with all my hospital staff and
+                    seniour doctors. Completed my graduation in Gynaecologist
+                    Medicine from the{" "}
                   </Text>
                   <div className="flex items-center gap-2.5 sm:flex-col">
                     <div className="h-px flex-1 bg-gray-600_02 sm:self-stretch" />
                     <a href="#" className="self-end">
-                      <Text as="p" className="!font-poppins !font-medium !text-blue_gray-900_03 underline">
+                      <Text
+                        as="p"
+                        className="!font-poppins !font-medium !text-blue_gray-900_03 underline"
+                      >
                         Read More
                       </Text>
                     </a>
                   </div>
                 </div>
                 <div className="ml-[39px] flex w-[84%] items-center gap-[15px] md:ml-0 md:w-full md:p-5 sm:flex-col">
-                  <Text size="xl" as="p" className="mb-1 self-end tracking-[-0.20px]">
+                  <Text
+                    size="xl"
+                    as="p"
+                    className="mb-1 self-end tracking-[-0.20px]"
+                  >
                     Language Spoken{" "}
                   </Text>
                   <Button className="flex h-[40px] w-full flex-1 items-center justify-center rounded-[16px] bg-indigo-700_0a px-[19px] text-center text-xl font-medium tracking-[-0.20px] text-gray-800 sm:self-stretch">
@@ -174,7 +247,11 @@ export default function DesktopSeventyThreePage() {
               {/* specialization section */}
               <div className="flex flex-col items-start gap-[31px] rounded-[18px] border border-solid border-gray-300_06 bg-white-A700_01">
                 <div className="flex self-stretch rounded-tl-[15px] rounded-tr-[18px] bg-gradient2 p-3">
-                  <Heading size="2xl" as="h3" className="ml-6 self-end !text-blue_gray-900 md:ml-0">
+                  <Heading
+                    size="2xl"
+                    as="h3"
+                    className="ml-6 self-end !text-blue_gray-900 md:ml-0"
+                  >
                     I Specialize In
                   </Heading>
                 </div>
@@ -213,7 +290,11 @@ export default function DesktopSeventyThreePage() {
                   </div>
                   <div className="flex flex-1 flex-col items-center gap-1.5">
                     <div className="self-stretch rounded-[9px] border border-solid border-gray-200_02 bg-gray-50_05 p-2">
-                      <Img src="images/img_globe.svg" alt="globe_one" className="h-[78px] w-full md:h-auto" />
+                      <Img
+                        src="images/img_globe.svg"
+                        alt="globe_one"
+                        className="h-[78px] w-full md:h-auto"
+                      />
                     </div>
                     <Text as="p" className="!font-medium capitalize">
                       Hair care
@@ -225,7 +306,11 @@ export default function DesktopSeventyThreePage() {
               {/* treatment concerns section */}
               <div className="flex flex-col items-center gap-6 rounded-[18px] border border-solid border-gray-300_06 bg-white-A700_01">
                 <div className="flex self-stretch rounded-tl-[15px] rounded-tr-[18px] bg-gradient3 p-[13px]">
-                  <Heading size="2xl" as="h4" className="ml-3.5 self-start !text-blue_gray-900 md:ml-0">
+                  <Heading
+                    size="2xl"
+                    as="h4"
+                    className="ml-3.5 self-start !text-blue_gray-900 md:ml-0"
+                  >
                     The Concerns I Treat
                   </Heading>
                 </div>
@@ -261,33 +346,57 @@ export default function DesktopSeventyThreePage() {
               {/* work experience section */}
               <div className="flex flex-col items-start gap-[35px] rounded-[18px] border border-solid border-gray-300_06 bg-white-A700_01">
                 <div className="flex self-stretch rounded-tl-[15px] rounded-tr-[18px] bg-gradient4 p-3">
-                  <Heading size="2xl" as="h5" className="ml-3.5 self-end !text-blue_gray-900 md:ml-0">
+                  <Heading
+                    size="2xl"
+                    as="h5"
+                    className="ml-3.5 self-end !text-blue_gray-900 md:ml-0"
+                  >
                     My Work Experience
                   </Heading>
                 </div>
                 <div className="ml-7 flex md:ml-0">
-                  <Heading size="lg" as="h6" className="!font-poppins !font-semibold uppercase">
+                  <Heading
+                    size="lg"
+                    as="h6"
+                    className="!font-poppins !font-semibold uppercase"
+                  >
                     I have been in practice for : 7+ Years
                   </Heading>
                 </div>
                 <div className="mb-10 ml-[31px] flex w-[79%] flex-col gap-[18px] md:ml-0 md:w-full md:p-5">
                   {data.map((d, index) => (
-                    <div key={"listuserone" + index} className="flex flex-1 items-start gap-2.5 sm:flex-col">
+                    <div
+                      key={"listuserone" + index}
+                      className="flex flex-1 items-start gap-2.5 sm:flex-col"
+                    >
                       <Button className="flex h-[48px] w-[48px] items-center justify-center rounded-md bg-gray-50_02">
                         <Img src="images/img_user.svg" />
                       </Button>
                       <div className="flex flex-1 items-start justify-between gap-5 pr-[18px] sm:self-stretch">
                         <div className="flex flex-col items-start gap-1.5">
-                          <Text as="p" className="!font-poppins !font-medium !text-blue_gray-800">
+                          <Text
+                            as="p"
+                            className="!font-poppins !font-medium !text-blue_gray-800"
+                          >
                             Midtown Medical Clinic
                           </Text>
-                          <Text as="p" className="!font-poppins !font-medium !text-blue_gray-800_7f">
+                          <Text
+                            as="p"
+                            className="!font-poppins !font-medium !text-blue_gray-800_7f"
+                          >
                             Senior doctor
                           </Text>
                         </div>
-                        <Text as="p" className="!font-poppins !font-medium !text-blue_gray-800_b5">
-                          <span className="font-normal text-blue_gray-800_b5">2016-</span>
-                          <span className="font-normal uppercase text-blue_gray-800_b5">present</span>
+                        <Text
+                          as="p"
+                          className="!font-poppins !font-medium !text-blue_gray-800_b5"
+                        >
+                          <span className="font-normal text-blue_gray-800_b5">
+                            2016-
+                          </span>
+                          <span className="font-normal uppercase text-blue_gray-800_b5">
+                            present
+                          </span>
                         </Text>
                       </div>
                     </div>
@@ -298,7 +407,11 @@ export default function DesktopSeventyThreePage() {
               {/* reviews section */}
               <div className="flex flex-col items-center gap-[21px] rounded-[18px] border border-solid border-gray-300_06 bg-white-A700_01">
                 <div className="flex self-stretch rounded-tl-[15px] rounded-tr-[18px] bg-gradient5 p-[15px]">
-                  <Heading size="2xl" as="h4" className="ml-[15px] self-end !text-blue_gray-900 md:ml-0">
+                  <Heading
+                    size="2xl"
+                    as="h4"
+                    className="ml-[15px] self-end !text-blue_gray-900 md:ml-0"
+                  >
                     Featured Reviews (102)
                   </Heading>
                 </div>
@@ -316,15 +429,25 @@ export default function DesktopSeventyThreePage() {
                             className="h-[56px] w-[22%] self-end rounded-[27px] object-cover"
                           />
                           <div className="flex flex-col items-start justify-center">
-                            <Heading size="xl" as="h5" className="!text-blue_gray-900_01">
+                            <Heading
+                              size="xl"
+                              as="h5"
+                              className="!text-blue_gray-900_01"
+                            >
                               Alicent Hightower
                             </Heading>
-                            <Text as="p" className="!font-medium !text-gray-500_01">
+                            <Text
+                              as="p"
+                              className="!font-medium !text-gray-500_01"
+                            >
                               {d.consultedfor}
                             </Text>
                           </div>
                         </div>
-                        <Text as="p" className="tracking-[-0.16px] !text-gray-500">
+                        <Text
+                          as="p"
+                          className="tracking-[-0.16px] !text-gray-500"
+                        >
                           20 January 2023
                         </Text>
                       </div>
@@ -337,7 +460,10 @@ export default function DesktopSeventyThreePage() {
                           size={20}
                           className="flex justify-between"
                         />
-                        <Text as="p" className="leading-6 tracking-[-0.16px] !text-blue_gray-900_02">
+                        <Text
+                          as="p"
+                          className="leading-6 tracking-[-0.16px] !text-blue_gray-900_02"
+                        >
                           {d.description}
                         </Text>
                       </div>
@@ -357,22 +483,36 @@ export default function DesktopSeventyThreePage() {
                 >
                   Appointment Fee
                 </Heading>
-                <Heading size="xl" as="h5" className="mr-[13px] text-center !font-inter tracking-[0.20px] md:mr-0">
+                <Heading
+                  size="xl"
+                  as="h5"
+                  className="mr-[13px] text-center !font-inter tracking-[0.20px] md:mr-0"
+                >
                   ₹699.00
                 </Heading>
               </div>
               <div className="mt-[45px] flex items-center gap-[21px] self-stretch sm:flex-col">
-                <Heading size="xl" as="h5" className="text-center !font-bold tracking-[0.50px] !text-black-900_02">
+                <Heading
+                  size="xl"
+                  as="h5"
+                  className="text-center !font-bold tracking-[0.50px] !text-black-900_02"
+                >
                   Select your mode of session
                 </Heading>
                 <div className="h-px w-[46%] bg-blue_gray-100_02" />
               </div>
               <div className="mt-10 flex gap-[22px] self-stretch md:flex-row sm:flex-col">
                 <div className="flex w-full flex-col items-center gap-1 rounded-[10px] border border-solid border-gray-300_05 bg-white-A700_01 p-3 sm:w-full">
-                  <Text as="p" className="mt-1.5 text-center !font-gothamrounded tracking-[0.50px] !text-gray-900_02">
+                  <Text
+                    as="p"
+                    className="mt-1.5 text-center !font-gothamrounded tracking-[0.50px] !text-gray-900_02"
+                  >
                     In-Clinic
                   </Text>
-                  <Text as="p" className="text-center tracking-[0.50px] !text-gray-700_04">
+                  <Text
+                    as="p"
+                    className="text-center tracking-[0.50px] !text-gray-700_04"
+                  >
                     45 Mins
                   </Text>
                 </div>
@@ -391,15 +531,24 @@ export default function DesktopSeventyThreePage() {
                       className="h-[21px] w-[20px] self-end"
                     />
                   </div>
-                  <Text as="p" className="text-center tracking-[0.50px] !text-gray-700_04">
+                  <Text
+                    as="p"
+                    className="text-center tracking-[0.50px] !text-gray-700_04"
+                  >
                     45 Mins
                   </Text>
                 </div>
                 <div className="flex w-full flex-col items-center justify-center gap-1 rounded-[10px] border border-solid border-gray-300_05 bg-white-A700_01 p-[13px] sm:w-full">
-                  <Text as="p" className="mt-1 text-center !font-gothamrounded tracking-[0.50px] !text-gray-900">
+                  <Text
+                    as="p"
+                    className="mt-1 text-center !font-gothamrounded tracking-[0.50px] !text-gray-900"
+                  >
                     Chat
                   </Text>
-                  <Text as="p" className="text-center tracking-[0.50px] !text-gray-700_04">
+                  <Text
+                    as="p"
+                    className="text-center tracking-[0.50px] !text-gray-700_04"
+                  >
                     10 Mins
                   </Text>
                 </div>
@@ -413,7 +562,9 @@ export default function DesktopSeventyThreePage() {
                       className="mt-[5px] self-start text-center !font-bold tracking-[0.20px] !text-black-900_02"
                     >
                       <span className="text-black-900_02">Pick a&nbsp;</span>
-                      <span className="lowercase text-black-900_02">Time slot</span>
+                      <span className="lowercase text-black-900_02">
+                        Time slot
+                      </span>
                     </Heading>
                     <div className="ml-[27px] h-px flex-1 bg-blue_gray-100_02 sm:ml-0 sm:self-stretch" />
                     <Button className="ml-[9px] flex h-[43px] w-[44px] items-center justify-center rounded-[21px] border border-solid border-blue_gray-400_01 bg-white-A700_01 p-[9px] sm:ml-0">
@@ -429,26 +580,48 @@ export default function DesktopSeventyThreePage() {
                       />
                       <div className="flex gap-2.5">
                         <div className="flex flex-col items-center justify-center gap-[5px] rounded-[11px] border border-solid border-green-800_01 bg-gray-100 p-3.5">
-                          <Heading size="md" as="h6" className="mt-[3px] text-center !font-inter tracking-[0.20px]">
+                          <Heading
+                            size="md"
+                            as="h6"
+                            className="mt-[3px] text-center !font-inter tracking-[0.20px]"
+                          >
                             Mon, 10 Oct
                           </Heading>
-                          <Heading size="md" as="h6" className="text-center !font-bold !text-gray-600_05">
+                          <Heading
+                            size="md"
+                            as="h6"
+                            className="text-center !font-bold !text-gray-600_05"
+                          >
                             10 slots
                           </Heading>
                         </div>
                         <div className="flex flex-col items-center gap-[5px] rounded-[11px] border border-solid border-gray-300_01 bg-white-A700_01 p-4">
-                          <Text as="p" className="text-center !font-inter tracking-[0.20px] !text-gray-900">
+                          <Text
+                            as="p"
+                            className="text-center !font-inter tracking-[0.20px] !text-gray-900"
+                          >
                             Tue, 11 Oct
                           </Text>
-                          <Heading size="md" as="h6" className="text-center !font-bold !text-deep_orange-700">
+                          <Heading
+                            size="md"
+                            as="h6"
+                            className="text-center !font-bold !text-deep_orange-700"
+                          >
                             02 slots{" "}
                           </Heading>
                         </div>
                         <div className="flex flex-col items-center justify-center gap-[5px] rounded-[11px] border border-solid border-gray-300_01 bg-white-A700_01 p-3.5">
-                          <Text as="p" className="text-center !font-inter tracking-[0.20px] !text-black-900">
+                          <Text
+                            as="p"
+                            className="text-center !font-inter tracking-[0.20px] !text-black-900"
+                          >
                             Wed, 12 Oct
                           </Text>
-                          <Heading size="md" as="h6" className="text-center !font-bold !text-yellow-700">
+                          <Heading
+                            size="md"
+                            as="h6"
+                            className="text-center !font-bold !text-yellow-700"
+                          >
                             05 slots{" "}
                           </Heading>
                         </div>
