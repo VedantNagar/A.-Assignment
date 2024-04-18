@@ -24,10 +24,6 @@ export default function DesktopSeventyThreePage() {
         Dr. Bruce Willis Gynecologist Profile | Comprehensive Women's Health
         Care
       </title>
-      <meta
-        name="description"
-        content="Meet Dr. Bruce Willis, a dedicated Gynecologist with over 7 years of experience. Specializing in women's health, skin care, and more. Book an appointment now."
-      />
 
       <div className="flex w-full flex-col items-center gap-[61px] bg-white-A700_01 pb-[85px] md:pb-5 sm:gap-[30px]">
         {/* navigation header section */}
@@ -49,27 +45,30 @@ export default function DesktopSeventyThreePage() {
                 <div className="mr-[15px] flex w-[85%] items-center justify-between gap-5 md:mr-0 md:w-full md:flex-col">
                   <div className="flex w-[60%] items-center justify-between gap-5 md:w-full">
                     <div className="flex w-[31%] flex-col gap-1.5">
-                      <div className="ml-1 flex items-start md:ml-0">
+                      <div
+                        className="ml-1 flex items-start md:ml-0"
+                        style={{ whiteSpace: "nowrap", width: "300px" }}
+                      >
                         <div className="flex flex-col items-start gap-0.5">
                           <Text
                             size="xl"
                             as="p"
                             className="!font-poppins !text-gray-900_03"
                           >
-                            Dr. Bruce Willis
+                            Dr.Bruce Willis
                           </Text>
                           <Text
                             size="s"
                             as="p"
                             className="!font-poppins !text-green-800_01"
                           >
-                            Gynecologist
+                            Gynaecologist
                           </Text>
                         </div>
                         <Img
                           src="images/img_checkmark.svg"
                           alt="checkmark_one"
-                          className="relative ml-[-10px] mt-1 h-[23px] w-[23px]"
+                          className="relative ml-2 mt-1 h-5 w-5"
                         />
                       </div>
                       <div className="flex flex-wrap items-center">

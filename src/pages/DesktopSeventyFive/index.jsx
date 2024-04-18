@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { Helmet } from "react-helmet";
 import { CloseSVG } from "../../assets/images";
 import { Button, Heading, Text, Img, SelectBox, Input } from "../../components";
@@ -11,17 +12,13 @@ const dropDownOptions = [
 ];
 
 export default function DesktopSeventyFivePage() {
-  const [searchBarValue, setSearchBarValue] = React.useState("");
+  const [searchBarValue, setSearchBarValue] = useState("");
 
   return (
     <>
       <title>
         Find Expert Doctors for In-Clinic Sessions | Your Health Matters
       </title>
-      <meta
-        name="description"
-        content="Discover expert doctors for in-clinic sessions tailored to your needs. Select by location, expertise, gender, and language. Book your consultation today."
-      />
 
       {/* main content section */}
       <div className="w-full bg-white-A700_01 pb-[303px] md:pb-5">
