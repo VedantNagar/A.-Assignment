@@ -6,9 +6,9 @@ import { Button, Heading, Text, Img, SelectBox, Input } from "../../components";
 import Header from "../../components/Header";
 
 const dropDownOptions = [
-  { label: "Option1", value: "option1" },
-  { label: "Option2", value: "option2" },
-  { label: "Option3", value: "option3" },
+  { label: "Option 1", value: "option1" },
+  { label: "Option 2", value: "option2" },
+  { label: "Option 3", value: "option3" },
 ];
 
 export default function DesktopSeventyFivePage() {
