@@ -121,7 +121,7 @@ export default function DesktopSeventyFivePage() {
                   name="expertise"
                   placeholder={`Expertise`}
                   options={dropDownOptions}
-                  className="flex w-[42%] gap-px rounded-[7px] bg-gray-100_01 py-[9px] pl-[13px] pr-[35px] font-dinpro text-base font-medium text-gray-700_03 sm:pr-5"
+                  className="flex w-[42%] gap-px rounded-[7px] bg-[#F3F3F3] py-[9px] pl-[13px] pr-[35px] font-dinpro text-base font-semibold text-[#585858] sm:pr-5"
                 />
                 <SelectBox
                   indicator={
@@ -134,7 +134,7 @@ export default function DesktopSeventyFivePage() {
                   name="gender"
                   placeholder={`Gender`}
                   options={dropDownOptions}
-                  className="flex w-[42%] gap-px rounded-[7px] bg-gray-100_01 py-[9px] pl-[13px] pr-[35px] font-dinpro text-base font-medium text-gray-700_03 sm:pr-5"
+                  className="flex w-[42%] gap-px rounded-[7px] bg-[#F3F3F3] py-[9px] pl-[13px] pr-[35px] font-dinpro text-base font-semibold text-[#585858] sm:pr-5"
                 />
               </div>
               <SelectBox
@@ -148,7 +148,7 @@ export default function DesktopSeventyFivePage() {
                 name="fees"
                 placeholder={`Fees`}
                 options={dropDownOptions}
-                className="flex w-[15%] gap-px rounded-[7px] bg-gray-100_01 py-[9px] pl-[15px] pr-[35px] font-dinpro text-base font-medium text-gray-700_03 md:w-full sm:pr-5"
+                className="flex w-[15%] gap-px rounded-[7px] bg-gray-100_01 py-[9px] pl-[15px] pr-[35px] font-dinpro text-base font-semibold text-[#585858] md:w-full sm:pr-5"
               />
               <SelectBox
                 indicator={
@@ -161,7 +161,7 @@ export default function DesktopSeventyFivePage() {
                 name="languages"
                 placeholder={`Languages`}
                 options={dropDownOptions}
-                className="flex w-[15%] gap-px rounded-[7px] bg-gray-100_01 py-[9px] pl-3 pr-[35px] font-dinpro text-base font-medium text-gray-700_03 md:w-full sm:pr-5"
+                className="flex w-[15%] gap-px rounded-[7px] bg-gray-100_01 py-[9px] pl-3 pr-[35px] font-dinpro text-base font-semibold text-[#585858] md:w-full sm:pr-5"
               />
               <SelectBox
                 indicator={
@@ -174,7 +174,7 @@ export default function DesktopSeventyFivePage() {
                 name="allfilters"
                 placeholder={`All filters`}
                 options={dropDownOptions}
-                className="mr-[7px] flex w-[15%] gap-px rounded-[7px] bg-gray-300_02 py-[9px] pl-[13px] pr-[35px] font-dinpro text-base font-medium text-green-800_01 md:mr-0 md:w-full sm:pr-5"
+                className="mr-[7px] flex w-[15%] gap-px rounded-[7px] bg-gray-300_02 py-[9px] pl-[13px] pr-[35px] font-dinpro text-base font-semibold text-[#585858] md:mr-0 md:w-full sm:pr-5"
               />
             </div>
           </div>
@@ -215,6 +215,7 @@ export default function DesktopSeventyFivePage() {
                   />
                 }
                 className="flex h-[45px] w-full flex-1 items-center justify-center gap-2.5 rounded-[22px] bg-green-50 px-[17px] text-center font-inter text-base tracking-[0.50px] text-black-900_02 sm:self-stretch"
+                style={{ whiteSpace: "nowrap" }}
               >
                 Rs.0-Rs.500
               </Button>
